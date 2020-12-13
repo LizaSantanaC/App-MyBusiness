@@ -8,6 +8,7 @@ import androidx.room.Query;
 import androidx.room.Transaction;
 import androidx.room.Update;
 
+import com.example.mybusiness.db.entity.Product;
 import com.my.business.db.entity.Product;
 
 import java.util.List;
