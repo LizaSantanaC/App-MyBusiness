@@ -9,7 +9,7 @@ import androidx.room.Transaction;
 import androidx.room.Update;
 
 import com.example.mybusiness.db.entity.Product;
-import com.example.mybusiness.db.entity.Product:
+import com.example.mybusiness.db.entity.Product;
 
 import java.util.List;
 
