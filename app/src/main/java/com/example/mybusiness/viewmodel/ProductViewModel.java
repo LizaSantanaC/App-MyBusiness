@@ -1,17 +1,15 @@
-package com.my.business.viewmodel;
-
-import android.app.Application;
+package com.example.mybusiness.viewmodel;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
+import com.example.mybusiness.room.MyBusinessDB;
+import com.example.mybusiness.db.entity.Product;
+import com.example.mybusiness.db.repository.ProductRepository;
 
-import com.my.business.MyAplicaction;
-import com.my.business.db.entity.Product;
-import com.my.business.db.repository.ProductRepository;
 
 import java.util.List;
 
-public class ProductViewModel  extends ViewModel {
+public class ProductViewModel extends ViewModel {
     private ProductRepository mRepository;
     private final LiveData<List<Product>> mAllProducts;
 
