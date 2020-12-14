@@ -1,4 +1,4 @@
-package com.example.mybusiness.ui;
+package com.example.mybusiness.ui.adapter;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +12,9 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
+import com.example.mybusiness.R;
+import com.example.mybusiness.db.entity.Product;
+
 import com.my.business.R;
 import com.my.business.db.entity.Product;
 import com.my.business.ui.fragment.CreateProductFragment;
