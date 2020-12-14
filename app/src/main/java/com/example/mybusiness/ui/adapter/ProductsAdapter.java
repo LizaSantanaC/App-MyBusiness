@@ -15,10 +15,6 @@ import com.google.gson.Gson;
 import com.example.mybusiness.R;
 import com.example.mybusiness.db.entity.Product;
 
-import com.my.business.R;
-import com.my.business.db.entity.Product;
-import com.my.business.ui.fragment.CreateProductFragment;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +36,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item, parent, false);
-        return new com.my.business.ui.adapter.ProductsAdapter.ViewHolder(inflate);
+        return new com.example.mybusiness.ui.adapter.ProductsAdapter.ViewHolder(inflate);
     }
 
     @Override
